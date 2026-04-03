@@ -2,87 +2,112 @@
 <html>
 <head>
 <title>Birthday Surprise</title>
+
 <style>
+
 body{
-font-family: Arial;
-background:#f2f2f2;
+font-family:Arial;
+background:#ece5dd;
 display:flex;
 justify-content:center;
 align-items:center;
 height:100vh;
 }
 
-.chat{
-width:350px;
+.chatbox{
+width:360px;
 background:white;
-padding:20px;
+padding:15px;
 border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 
-.msg{
-padding:10px;
-margin:8px 0;
-border-radius:10px;
+.message{
+display:flex;
+align-items:flex-end;
+margin:10px 0;
 }
 
-.son{
-background:#d1e7ff;
-text-align:left;
+.message img{
+width:30px;
+height:30px;
+border-radius:50%;
+margin-right:8px;
+}
+
+.text{
+padding:10px;
+border-radius:10px;
+max-width:220px;
+}
+
+.son .text{
+background:#d9fdd3;
 }
 
 .father{
-background:#d4ffd4;
-text-align:right;
+flex-direction:row-reverse;
 }
+
+.father img{
+margin-left:8px;
+margin-right:0;
+}
+
+.father .text{
+background:#ffffff;
+}
+
 </style>
 </head>
 
 <body>
 
-<div class="chat">
+<div class="chatbox">
 
-<div class="msg son">
-Hi Nanna ❤️
+<div class="message son">
+<img src="son.jpg">
+<div class="text">Hi Nanna❤️</div>
 </div>
 
-<div class="msg father">
-Dattaaa.....
+<div class="message father">
+<img src="father.jpg">
+<div class="text">Hello Dipu .</div>
 </div>
 
-<div class="msg son">
-I Wish You ah Very Happy birthday Nanna 
+<div class="message son">
+<img src="son.jpg">
+<div class="text">Happy Birthday Nanna🎉</div>
 </div>
 
-<div class="msg son">
-You are the best father Nanna . Be safe Take care of your health and I will be within you Dont worry about me Nanna.
+<div class="message son">
+<img src="son.jpg">
+<div class="text">You are the best father in the world.</div>
 </div>
 
-<div class="msg son">
-Stay strong and keep smiling.
+<div class="message father">
+<img src="father.jpg">
+<div class="text">Thank you soo much Dipu.</div>
 </div>
 
-<div class="msg son">
-I will always With you.
+  <div class="message son">
+<img src="son.jpg">
+<div class="text">Thank you for being more supportive person and taking care of me.</div>
 </div>
 
-<div class="msg father">
-Thank you Soo much Dattta. I miss you raa.
-</div>
-
-  <div class="msg son">
-Please Nanna nuv edisthe ninu chudalekapothunna Nuvvu mummy eppudu happy ga undandi nanna naa kosam edavvaddu please!
-</div>
-
-  <div class="msg son">
-  Miru edisthe nak chudadaniki chaala kastanga undi nanna !
-</div>
-
-  <div class="msg son">
-Love you soo much Nanna and I wish you ah many more happy returns of the day Nanna ❤️
+  <div class="message son">
+<img src="son.jpg">
+<div class="text"> I Try to be ah best son and make you proud LOVE U NANNA .</div>
 </div>
 
 </div>
+
+<!-- YouTube Song -->
+<iframe width="0" height="0"
+src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID?autoplay=1&loop=1"
+frameborder="0" allow="autoplay">
+</iframe>
 
 </body>
 </html>
+
